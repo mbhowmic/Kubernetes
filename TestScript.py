@@ -1,1 +1,1 @@
-print "Hello from TestScript python file!"
+print ('Hello from TestScript python file!')
