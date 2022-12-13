@@ -9,7 +9,6 @@ ENV HTTP_PROXY=http://proxy-dmz.intel.com:911
 ENV HTTPS_PROXY=http://proxy-dmz.intel.com:912
 ENV NO_PROXY=intel.com,.intel.com,localhost,127.0.0.1,192.168.0.0/16
 
-
 FROM python:latest
 WORKDIR ./
 COPY TestScript.py ./
